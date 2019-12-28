@@ -89,7 +89,7 @@ class Highlight(commands.Cog):
                 await ctx.send(f"The word {text} is already in your highlight list for {channel}.")
         async with self.config.channel(channel).toggle() as toggle:
             if str(ctx.author.id) not in toggle:
-                toggle[f"{ctx.author.id}"] = False
+                toggle[f"{ctx.author.id}"] = True
 
     @highlight.command()
     async def remove(self, ctx, channel: Optional[discord.TextChannel] = None, *, word: str):
