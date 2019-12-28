@@ -1,4 +1,4 @@
-from .highlight import Highlight
+from .skylight import Highlight
 
 
 def setup(bot):
