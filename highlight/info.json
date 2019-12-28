@@ -3,12 +3,12 @@
     "flare(flare#0001)"
   ],
   "install_msg": "Highlight certain words to be notified of when said.",
-  "name": "Highlight",
+  "name": "Skylight",
   "disabled": false,
   "short": "Get notified on certain words.",
   "description": "Highlight certain words to be notified of if said in a certain channel.",
   "tags": [
-    "highlight"
+    "Skylight"
   ],
   "hidden": false
 }
